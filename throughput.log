@@ -1,9 +1,8 @@
 Total assets created: 10000
 Total time taken: 1060.13 seconds
 Throughput: 9.432805410657183 assets per second
-Total assets created: 6999
-Total time taken: 807.378 seconds
-Throughput: 8.66880197379666 assets per second
+ Batch size: 200
+
 Total assets created: 10000
 Total time taken: 1079.138 seconds
 Throughput: 9.266655423124753 assets per second
