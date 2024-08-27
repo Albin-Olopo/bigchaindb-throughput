@@ -1,9 +1,25 @@
 # BigChainDB Throughput Measurement Tool
 
+## Ubuntu server 
+Create a virtual ubunntu server with required ram and core 
+
+### Run the following for starting the BigChainDB on the server
+```bash
+git clone https://github.com/bigchaindb/bigchaindb.git
+cd bigchaindb
+make run
+```
+
+
 ## Running the Project
 ```bash
 npm install
 ```
+make sure to change the ipaddress from the connection string 
+```bash
+const conn = new BigchainDB.Connection('http://<your_ip_here>:9984/api/v1/');
+```
+
 ```bash
 node index.js
 ```
