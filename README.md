@@ -2,6 +2,9 @@
 
 ## Running the Project
 ```bash
+npm install
+```
+```bash
 node index.js
 ```
 
