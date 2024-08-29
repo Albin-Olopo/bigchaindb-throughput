@@ -1,9 +1,46 @@
-Total assets created: 10000
-Total time taken: 1060.13 seconds
-Throughput: 9.432805410657183 assets per second
+
+Date: 28/8/2024, 10:41:55 am
+Total assets created: 99
+Total time taken: 57.229 seconds
+Throughput: 1.7298921875273026 assets per second
+Batch size: 100
+
+#########################
+
+    Date: 28/8/2024, 11:24:51 am
+Total assets created: 1000
+Total time taken: 103.579 seconds
+Throughput: 9.65446663899053 assets per second
+ Batch size: 100
+
+#########################
+
+    Date: 28/8/2024, 11:30:17 am
+Total assets created: 2000
+Total time taken: 193.62 seconds
+Throughput: 10.329511414110112 assets per second
  Batch size: 200
 
-Total assets created: 10000
-Total time taken: 1079.138 seconds
-Throughput: 9.266655423124753 assets per second
- Batch size: 200
+#########################
+
+    Date: 28/8/2024, 11:32:34 am
+Total assets created: 1500
+Total time taken: 55.736 seconds
+Throughput: 26.912587914453855 assets per second
+ Batch size: 500
+
+#########################
+
+    Date: 28/8/2024, 11:33:51 am
+Total assets created: 1000
+Total time taken: 40.823 seconds
+Throughput: 24.495994904833058 assets per second
+ Batch size: 1000
+
+#########################
+
+    Date: 28/8/2024, 11:40:48 am
+Total assets created: 2000
+Total time taken: 63.493 seconds
+Throughput: 31.499535381853118 assets per second
+ Batch size: 2000

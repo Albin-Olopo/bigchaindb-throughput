@@ -54,11 +54,9 @@ async function createAsset(assetData) {
         j++;
         
     } catch (error) {
-        if (!errorStart) {
-            console.error('Error:', error);
-            errorStart = j;
-        }
+        console.log('Error creating asset:', error);
         console.log('Asset not created:', j);
+        j++;
     }
 }
 
@@ -82,7 +80,8 @@ async function measureThroughput( totalAssets, startCount, batchSize) {
     const duration = (endTime - startTime) / 1000; // Duration in seconds
 
     // Prepare log data
-    const logData = `Total assets created: ${j}\nTotal time taken: ${duration} seconds\nThroughput: ${j / duration} assets per second\n Batch size: ${batchSize}\n`;
+    const logData = `\n#########################\n
+    Date: ${new Date().toLocaleString()}\nTotal assets created: ${j}\nTotal time taken: ${duration} seconds\nThroughput: ${j / duration} assets per second\n Batch size: ${batchSize}\n`;
 
     // Write log data to a file
     fs.access('throughput.log', fs.constants.F_OK, (err) => {

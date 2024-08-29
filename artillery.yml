@@ -1,0 +1,21 @@
+config:
+  target: http://localhost:3000
+  phases:
+    - duration: 60
+      arrivalRate: 1
+      rampTo: 100
+      name: Warm up
+    - duration: 60
+      arrivalRate: 100
+      rampTo: 500
+      name: Ramp up
+    - duration: 30
+      arrivalRate: 100
+      rampTo: 500
+      name: Spike
+scenarios:
+  - flow:
+      - loop:
+          - post:
+              url: '/create-asset'
+        count: 1
