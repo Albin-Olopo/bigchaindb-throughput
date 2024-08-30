@@ -1,0 +1,37 @@
+{
+  "date": "2024-08-29T11:18:45.409Z",
+  "data": {
+    "success": true,
+    "keyPair": {
+      "publicKey": "DeJkGPhLt4ci91uSvjvvFpea4JeS5oU6CKeLM2rSThju",
+      "privateKey": "5pg4Bb8141KrRYF6FdK6fwMaaSFyt1HbdszWxvqN28h"
+    },
+    "txSigned": {
+      "id": "43cd416ee673ec7065427ae87c7ebe7945d4abf957343b0e62d4e95a138469b4",
+      "operation": "CREATE",
+      "outputs": [
+        {
+          "condition": {
+            "details": {
+              "type": "ed25519-sha-256",
+              "public_key": "DeJkGPhLt4ci91uSvjvvFpea4JeS5oU6CKeLM2rSThju"
+            },
+            "uri": "ni:///sha-256;y6f4VIvQH6Bs4vWm5dDYB0icwpCrdzENVlmN5BwJB7I?fpt=ed25519-sha-256&cost=131072"
+          },
+          "amount": "1",
+          "public_keys": ["DeJkGPhLt4ci91uSvjvvFpea4JeS5oU6CKeLM2rSThju"]
+        }
+      ],
+      "inputs": [
+        {
+          "fulfillment": "pGSAILvazGhS0WTVCdNou40PljfjD2RSwSC2Bcy10covGKbYgUBscR0qLdQqn0YR8-Gop2jQD6CMc6E9iZA577EsL69pg0mQEWHX33jW7GU1QmxFjOHlcvLUO1VNkgB9FJOpBwcP",
+          "fulfills": null,
+          "owners_before": ["5pg4Bb8141KrRYF6FdK6fwMaaSFyt1HbdszWxvqN28h"]
+        }
+      ],
+      "metadata": null,
+      "asset": { "data": { "price": 28.931876394461263, "user": "user-141" } },
+      "version": "2.0"
+    }
+  }
+}
